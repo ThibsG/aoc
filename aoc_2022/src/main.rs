@@ -8,6 +8,8 @@ mod _03;
 mod _04;
 #[path = "05.rs"]
 mod _05;
+#[path = "06.rs"]
+mod _06;
 
 fn main() {
     _01::main();
@@ -15,4 +17,5 @@ fn main() {
     _03::main();
     _04::main();
     _05::main();
+    _06::main();
 }
