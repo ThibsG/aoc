@@ -16,6 +16,8 @@ mod _07;
 mod _08;
 #[path = "09.rs"]
 mod _09;
+#[path = "10.rs"]
+mod _10;
 
 fn main() {
     _01::main();
@@ -27,4 +29,5 @@ fn main() {
     _07::main();
     _08::main();
     _09::main();
+    _10::main();
 }
